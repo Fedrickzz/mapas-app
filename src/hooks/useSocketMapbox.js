@@ -55,7 +55,7 @@ export const useSocketMapbox = (
             agregarMarcador(marcador, marcador.id);
         });
 
-    }, [socket]);
+    }, [agregarMarcador, socket]);
     return {
 
     };
